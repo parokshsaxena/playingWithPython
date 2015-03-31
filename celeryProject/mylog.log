@@ -1,0 +1,282 @@
+[2015-03-25 10:04:12,561: INFO/MainProcess] Connected to amqp://guest:**@127.0.0.1:5672//
+[2015-03-25 10:04:12,585: INFO/MainProcess] mingle: searching for neighbors
+[2015-03-25 10:04:13,594: INFO/MainProcess] mingle: all alone
+[2015-03-25 10:04:13,626: WARNING/MainProcess] worker1@EN-ParokshaS ready.
+[2015-03-25 10:04:13,886: WARNING/MainProcess] ERROR: Pidfile (/Users/paroksh.saxena/personal/python/playingWithPython/celeryProject/mypid.pid) already exists.
+Seems we're already running? (pid: 16363)
+[2015-03-25 10:04:35,416: INFO/MainProcess] Connected to amqp://guest:**@127.0.0.1:5672//
+[2015-03-25 10:04:35,430: INFO/MainProcess] mingle: searching for neighbors
+[2015-03-25 10:04:36,439: INFO/MainProcess] mingle: all alone
+[2015-03-25 10:04:36,467: WARNING/MainProcess] /Library/Python/2.7/site-packages/kombu/pidbox.py:75: UserWarning: A node named worker1@EN-ParokshaS is already using this process mailbox!
+
+Maybe you forgot to shutdown the other node or did not do so properly?
+Or if you meant to start multiple nodes on the same host please make sure
+you give each node a unique node name!
+
+  warnings.warn(W_PIDBOX_IN_USE.format(node=self))
+[2015-03-25 10:04:36,473: WARNING/MainProcess] worker1@EN-ParokshaS ready.
+[2015-03-25 10:04:36,726: WARNING/MainProcess] ERROR: Pidfile (/Users/paroksh.saxena/personal/python/playingWithPython/celeryProject/mypid.pid) already exists.
+Seems we're already running? (pid: 16478)
+[2015-03-25 10:05:34,838: INFO/MainProcess] Connected to amqp://guest:**@127.0.0.1:5672//
+[2015-03-25 10:05:34,855: INFO/MainProcess] mingle: searching for neighbors
+[2015-03-25 10:05:35,865: INFO/MainProcess] mingle: all alone
+[2015-03-25 10:05:35,892: WARNING/MainProcess] /Library/Python/2.7/site-packages/kombu/pidbox.py:75: UserWarning: A node named worker1@EN-ParokshaS is already using this process mailbox!
+
+Maybe you forgot to shutdown the other node or did not do so properly?
+Or if you meant to start multiple nodes on the same host please make sure
+you give each node a unique node name!
+
+  warnings.warn(W_PIDBOX_IN_USE.format(node=self))
+[2015-03-25 10:05:35,899: WARNING/MainProcess] worker1@EN-ParokshaS ready.
+[2015-03-25 10:05:36,160: WARNING/MainProcess] ERROR: Pidfile (/Users/paroksh.saxena/personal/python/playingWithPython/celeryProject/mypid.pid) already exists.
+Seems we're already running? (pid: 16702)
+[2015-03-25 10:06:15,245: INFO/MainProcess] Connected to amqp://guest:**@127.0.0.1:5672//
+[2015-03-25 10:06:15,257: INFO/MainProcess] mingle: searching for neighbors
+[2015-03-25 10:06:16,267: INFO/MainProcess] mingle: all alone
+[2015-03-25 10:06:16,298: WARNING/MainProcess] /Library/Python/2.7/site-packages/kombu/pidbox.py:75: UserWarning: A node named worker1@EN-ParokshaS is already using this process mailbox!
+
+Maybe you forgot to shutdown the other node or did not do so properly?
+Or if you meant to start multiple nodes on the same host please make sure
+you give each node a unique node name!
+
+  warnings.warn(W_PIDBOX_IN_USE.format(node=self))
+[2015-03-25 10:06:16,301: WARNING/MainProcess] worker1@EN-ParokshaS ready.
+[2015-03-25 10:06:16,561: WARNING/MainProcess] ERROR: Pidfile (/Users/paroksh.saxena/personal/python/playingWithPython/celeryProject/mypid.pid) already exists.
+Seems we're already running? (pid: 16894)
+[2015-03-25 10:07:49,428: INFO/MainProcess] Connected to amqp://guest:**@127.0.0.1:5672//
+[2015-03-25 10:07:49,447: INFO/MainProcess] mingle: searching for neighbors
+[2015-03-25 10:07:50,455: INFO/MainProcess] mingle: all alone
+[2015-03-25 10:07:50,485: WARNING/MainProcess] worker1@EN-ParokshaS ready.
+[2015-03-25 10:07:50,733: WARNING/MainProcess] ERROR: Pidfile (/Users/paroksh.saxena/personal/python/playingWithPython/celeryProject/mypid.pid) already exists.
+Seems we're already running? (pid: 17609)
+[2015-03-25 10:09:33,122: INFO/MainProcess] Connected to amqp://guest:**@127.0.0.1:5672//
+[2015-03-25 10:09:33,137: INFO/MainProcess] mingle: searching for neighbors
+[2015-03-25 10:09:34,146: INFO/MainProcess] mingle: all alone
+[2015-03-25 10:09:34,177: WARNING/MainProcess] worker1@EN-ParokshaS ready.
+[2015-03-25 10:09:34,429: WARNING/MainProcess] ERROR: Pidfile (/Users/paroksh.saxena/personal/python/playingWithPython/celeryProject/mypid.pid) already exists.
+Seems we're already running? (pid: 17967)
+[2015-03-25 10:10:17,127: INFO/MainProcess] Received task: celeryProject.addTask.add[c6b618a3-3c42-4d03-b809-ff747bfb9aa6]
+[2015-03-25 10:10:17,129: INFO/MainProcess] Received task: celeryProject.multiplyTask.multiply[642cbd36-682d-4246-a409-d1e12743ef9a]
+[2015-03-25 10:10:17,129: WARNING/Worker-3] Sending from add to print
+[2015-03-25 10:10:17,130: WARNING/Worker-2] sending from multiply to print 2 and 4
+[2015-03-25 10:10:17,159: INFO/MainProcess] Received task: celeryProject.addTask.printNum[ee21c844-45d2-4954-9bd0-ac39f7622366]
+[2015-03-25 10:10:17,160: INFO/MainProcess] Received task: celeryProject.addTask.printNum[43b362f5-07e7-45d5-afc8-241f9b7bf984]
+[2015-03-25 10:10:17,160: WARNING/Worker-5] Add result : 6
+[2015-03-25 10:10:17,161: WARNING/Worker-1] Multiple result :  8
+[2015-03-25 10:10:17,174: INFO/MainProcess] Task celeryProject.addTask.add[c6b618a3-3c42-4d03-b809-ff747bfb9aa6] succeeded in 0.0456530450001s: None
+[2015-03-25 10:10:17,178: INFO/MainProcess] Task celeryProject.multiplyTask.multiply[642cbd36-682d-4246-a409-d1e12743ef9a] succeeded in 0.0483144809996s: None
+[2015-03-25 10:10:17,196: INFO/MainProcess] Task celeryProject.addTask.printNum[ee21c844-45d2-4954-9bd0-ac39f7622366] succeeded in 0.0367211160001s: None
+[2015-03-25 10:10:17,201: INFO/MainProcess] Task celeryProject.addTask.printNum[43b362f5-07e7-45d5-afc8-241f9b7bf984] succeeded in 0.0397607800005s: None
+[2015-03-25 10:10:36,606: INFO/MainProcess] Received task: celeryProject.addTask.add[da75d124-6621-43b0-97dd-31fd70a9a3b0]
+[2015-03-25 10:10:36,608: INFO/MainProcess] Received task: celeryProject.multiplyTask.multiply[036d0d6e-5515-4778-bfbc-1f96a0d23ba4]
+[2015-03-25 10:10:36,607: WARNING/Worker-6] Sending from add to print
+[2015-03-25 10:10:36,609: WARNING/Worker-4] sending from multiply to print 2 and 4
+[2015-03-25 10:10:36,625: INFO/MainProcess] Received task: celeryProject.addTask.printNum[927e18fc-3bf2-415d-a058-d96ff0d09f82]
+[2015-03-25 10:10:36,625: INFO/MainProcess] Received task: celeryProject.addTask.printNum[c7e0efa9-e9ab-4f24-ab43-9d44de5631d9]
+[2015-03-25 10:10:36,629: WARNING/Worker-8] Multiple result :  8
+[2015-03-25 10:10:36,629: WARNING/Worker-7] Add result : 6
+[2015-03-25 10:10:36,641: INFO/MainProcess] Task celeryProject.addTask.add[da75d124-6621-43b0-97dd-31fd70a9a3b0] succeeded in 0.0339884479999s: None
+[2015-03-25 10:10:36,645: INFO/MainProcess] Task celeryProject.multiplyTask.multiply[036d0d6e-5515-4778-bfbc-1f96a0d23ba4] succeeded in 0.0361528410003s: None
+[2015-03-25 10:10:36,663: INFO/MainProcess] Task celeryProject.addTask.printNum[927e18fc-3bf2-415d-a058-d96ff0d09f82] succeeded in 0.0344836100003s: None
+[2015-03-25 10:10:36,667: INFO/MainProcess] Task celeryProject.addTask.printNum[c7e0efa9-e9ab-4f24-ab43-9d44de5631d9] succeeded in 0.038594095s: None
+[2015-03-25 11:19:39,406: WARNING/MainProcess] consumer: Connection to broker lost. Trying to re-establish the connection...
+Traceback (most recent call last):
+  File "/Library/Python/2.7/site-packages/celery/worker/consumer.py", line 278, in start
+    blueprint.start(self)
+  File "/Library/Python/2.7/site-packages/celery/bootsteps.py", line 123, in start
+    step.start(parent)
+  File "/Library/Python/2.7/site-packages/celery/worker/consumer.py", line 821, in start
+    c.loop(*c.loop_args())
+  File "/Library/Python/2.7/site-packages/celery/worker/loops.py", line 70, in asynloop
+    next(loop)
+  File "/Library/Python/2.7/site-packages/kombu/async/hub.py", line 324, in create_loop
+    cb(*cbargs)
+  File "/Library/Python/2.7/site-packages/kombu/transport/base.py", line 162, in on_readable
+    reader(loop)
+  File "/Library/Python/2.7/site-packages/kombu/transport/base.py", line 144, in _read
+    drain_events(timeout=0)
+  File "/Library/Python/2.7/site-packages/amqp/connection.py", line 302, in drain_events
+    chanmap, None, timeout=timeout,
+  File "/Library/Python/2.7/site-packages/amqp/connection.py", line 365, in _wait_multiple
+    channel, method_sig, args, content = read_timeout(timeout)
+  File "/Library/Python/2.7/site-packages/amqp/connection.py", line 336, in read_timeout
+    return self.method_reader.read_method()
+  File "/Library/Python/2.7/site-packages/amqp/method_framing.py", line 189, in read_method
+    raise m
+IOError: Socket closed
+[2015-03-25 11:19:39,443: ERROR/MainProcess] consumer: Cannot connect to amqp://guest:**@127.0.0.1:5672//: [Errno 61] Connection refused.
+Trying again in 2.00 seconds...
+
+[2015-03-25 11:19:41,457: ERROR/MainProcess] consumer: Cannot connect to amqp://guest:**@127.0.0.1:5672//: [Errno 61] Connection refused.
+Trying again in 4.00 seconds...
+
+[2015-03-25 11:19:45,474: ERROR/MainProcess] consumer: Cannot connect to amqp://guest:**@127.0.0.1:5672//: [Errno 61] Connection refused.
+Trying again in 6.00 seconds...
+
+[2015-03-25 11:19:51,493: ERROR/MainProcess] consumer: Cannot connect to amqp://guest:**@127.0.0.1:5672//: [Errno 61] Connection refused.
+Trying again in 8.00 seconds...
+
+[2015-03-25 12:45:32,563: INFO/MainProcess] Connected to amqp://guest:**@127.0.0.1:5672//
+[2015-03-25 12:45:32,575: INFO/MainProcess] mingle: searching for neighbors
+[2015-03-25 12:45:33,021: WARNING/MainProcess] ERROR: Pidfile (/Users/paroksh.saxena/personal/python/playingWithPython/celeryProject/mypid.pid) already exists.
+Seems we're already running? (pid: 8057)
+[2015-03-25 12:45:33,592: INFO/MainProcess] mingle: all alone
+[2015-03-25 12:45:33,622: WARNING/MainProcess] worker1@EN-ParokshaS ready.
+[2015-03-25 12:49:45,835: INFO/MainProcess] sync with celery@EN-ParokshaS
+[2015-03-25 12:52:14,217: INFO/MainProcess] Received task: celeryProject.addTask.add[29c83a72-6d65-4cae-b307-c385dd3e6e1d]
+[2015-03-25 12:52:14,219: INFO/MainProcess] Received task: celeryProject.multiplyTask.multiply[ba0efa5f-53ab-425f-a4be-1477bcc9d34e]
+[2015-03-25 12:52:14,220: WARNING/Worker-8] sending from multiply to print 2 and 4
+[2015-03-25 12:52:14,220: WARNING/Worker-2] Sending from add to print
+[2015-03-25 12:52:14,238: INFO/MainProcess] Received task: celeryProject.addTask.printNum[e9e76e9b-d012-44d4-8aa6-bef1dfa2be3a]
+[2015-03-25 12:52:14,239: WARNING/Worker-1] Multiple result :  8
+[2015-03-25 12:52:14,252: INFO/MainProcess] Task celeryProject.multiplyTask.multiply[ba0efa5f-53ab-425f-a4be-1477bcc9d34e] succeeded in 0.0326369600002s: None
+[2015-03-25 12:52:14,262: INFO/MainProcess] Task celeryProject.addTask.add[29c83a72-6d65-4cae-b307-c385dd3e6e1d] succeeded in 0.0424690750001s: None
+[2015-03-25 12:52:14,271: INFO/MainProcess] Task celeryProject.addTask.printNum[e9e76e9b-d012-44d4-8aa6-bef1dfa2be3a] succeeded in 0.0318142849997s: None
+[2015-03-25 12:57:11,913: INFO/MainProcess] sync with celery@EN-ParokshaS
+[2015-03-25 12:59:00,871: INFO/MainProcess] sync with celery@EN-ParokshaS
+[2015-03-25 12:59:16,947: INFO/MainProcess] Received task: celeryProject.addTask.add[c150a895-faa7-4da2-bf5f-1bd70e94830e]
+[2015-03-25 12:59:16,949: INFO/MainProcess] Received task: celeryProject.multiplyTask.multiply[bc79208e-8813-4f45-b5da-8cd2a511e842]
+[2015-03-25 12:59:16,948: WARNING/Worker-6] Sending from add to print
+[2015-03-25 12:59:16,950: WARNING/Worker-3] sending from multiply to print 2 and 4
+[2015-03-25 12:59:16,966: INFO/MainProcess] Received task: celeryProject.addTask.printNum[3de3144d-16be-495e-9c17-ca6f87dbedaf]
+[2015-03-25 12:59:16,967: WARNING/Worker-5] Add result : 6
+[2015-03-25 12:59:16,983: INFO/MainProcess] Task celeryProject.addTask.add[c150a895-faa7-4da2-bf5f-1bd70e94830e] succeeded in 0.035695905s: None
+[2015-03-25 12:59:16,988: INFO/MainProcess] Task celeryProject.multiplyTask.multiply[bc79208e-8813-4f45-b5da-8cd2a511e842] succeeded in 0.0382092770001s: None
+[2015-03-25 12:59:17,001: INFO/MainProcess] Task celeryProject.addTask.printNum[3de3144d-16be-495e-9c17-ca6f87dbedaf] succeeded in 0.034291123s: None
+[2015-03-25 12:59:59,733: INFO/MainProcess] sync with celery@EN-ParokshaS
+[2015-03-25 13:00:48,951: INFO/MainProcess] Received task: celeryProject.addTask.add[396768fa-5da6-4d49-92e8-40745bec0c11]
+[2015-03-25 13:00:48,953: INFO/MainProcess] Received task: celeryProject.multiplyTask.multiply[12cf5ea6-4bb6-4e9b-b239-746360726c15]
+[2015-03-25 13:00:48,952: WARNING/Worker-4] Sending from add to print
+[2015-03-25 13:00:48,954: WARNING/Worker-7] sending from multiply to print 2 and 4
+[2015-03-25 13:00:48,981: INFO/MainProcess] Received task: celeryProject.addTask.printNum[7dcba076-51bc-4e48-ba63-49ac170c2a16]
+[2015-03-25 13:00:48,982: WARNING/Worker-2] Add result : 6
+[2015-03-25 13:00:48,998: INFO/MainProcess] Task celeryProject.addTask.add[396768fa-5da6-4d49-92e8-40745bec0c11] succeeded in 0.0462675680001s: None
+[2015-03-25 13:00:49,002: INFO/MainProcess] Task celeryProject.addTask.printNum[7dcba076-51bc-4e48-ba63-49ac170c2a16] succeeded in 0.0201414779999s: None
+[2015-03-25 13:00:49,003: INFO/MainProcess] Task celeryProject.multiplyTask.multiply[12cf5ea6-4bb6-4e9b-b239-746360726c15] succeeded in 0.0489071490001s: None
+[2015-03-26 19:06:42,294: ERROR/MainProcess] consumer: Cannot connect to amqp://guest:**@127.0.0.1:5672//: [Errno 61] Connection refused.
+Trying again in 2.00 seconds...
+
+[2015-03-26 19:06:42,716: WARNING/MainProcess] ERROR: Pidfile (/Users/paroksh.saxena/personal/python/playingWithPython/celeryProject/mypid.pid) already exists.
+Seems we're already running? (pid: 58467)
+[2015-03-26 19:06:44,309: ERROR/MainProcess] consumer: Cannot connect to amqp://guest:**@127.0.0.1:5672//: [Errno 61] Connection refused.
+Trying again in 4.00 seconds...
+
+[2015-03-26 19:06:48,325: ERROR/MainProcess] consumer: Cannot connect to amqp://guest:**@127.0.0.1:5672//: [Errno 61] Connection refused.
+Trying again in 6.00 seconds...
+
+[2015-03-26 19:06:54,343: ERROR/MainProcess] consumer: Cannot connect to amqp://guest:**@127.0.0.1:5672//: [Errno 61] Connection refused.
+Trying again in 8.00 seconds...
+
+[2015-03-26 19:07:02,359: ERROR/MainProcess] consumer: Cannot connect to amqp://guest:**@127.0.0.1:5672//: [Errno 61] Connection refused.
+Trying again in 10.00 seconds...
+
+[2015-03-26 19:07:12,381: INFO/MainProcess] Connected to amqp://guest:**@127.0.0.1:5672//
+[2015-03-26 19:07:12,393: INFO/MainProcess] mingle: searching for neighbors
+[2015-03-26 19:07:13,402: INFO/MainProcess] mingle: all alone
+[2015-03-26 19:07:13,424: WARNING/MainProcess] worker1@EN-ParokshaS ready.
+[2015-03-26 19:07:37,972: INFO/MainProcess] Received task: celeryProject.startTask.start[fb4c9832-2f5e-4658-8fcd-124dd3893ea4]
+[2015-03-26 19:07:37,989: INFO/MainProcess] Received task: celeryProject.addTask.add[d9ba0979-9b5b-487c-b39a-2e551d5e5d8f]
+[2015-03-26 19:07:37,991: INFO/MainProcess] Received task: celeryProject.multiplyTask.multiply[ef598476-215f-460a-ae0b-c946c52e346f]
+[2015-03-26 19:07:37,990: WARNING/Worker-2] Sending from add to print
+[2015-03-26 19:07:37,992: WARNING/Worker-7] sending from multiply to print 2 and 4
+[2015-03-26 19:07:37,993: WARNING/Worker-7] Multiple result :  8
+[2015-03-26 19:07:38,003: INFO/MainProcess] Task celeryProject.startTask.start[fb4c9832-2f5e-4658-8fcd-124dd3893ea4] succeeded in 0.0299710120016s: None
+[2015-03-26 19:07:38,008: INFO/MainProcess] Received task: celeryProject.addTask.printNum[4cc34759-995a-4234-a047-94e146a2f6b8]
+[2015-03-26 19:07:38,010: WARNING/Worker-4] Add result : 6
+[2015-03-26 19:07:38,023: INFO/MainProcess] Task celeryProject.addTask.add[d9ba0979-9b5b-487c-b39a-2e551d5e5d8f] succeeded in 0.0335498830027s: None
+[2015-03-26 19:07:38,027: INFO/MainProcess] Task celeryProject.multiplyTask.multiply[ef598476-215f-460a-ae0b-c946c52e346f] succeeded in 0.0352410240012s: None
+[2015-03-26 19:07:38,042: INFO/MainProcess] Task celeryProject.addTask.printNum[4cc34759-995a-4234-a047-94e146a2f6b8] succeeded in 0.0328396490004s: None
+[2015-03-26 19:08:00,002: INFO/MainProcess] Received task: celeryProject.startTask.start[0be9b6f2-3452-4df2-88a0-05affcd8bca9]
+[2015-03-26 19:08:00,019: INFO/MainProcess] Received task: celeryProject.addTask.add[a22f4324-b7d8-4188-834c-76a1862dfb35]
+[2015-03-26 19:08:00,021: WARNING/Worker-5] Sending from add to print
+[2015-03-26 19:08:00,021: INFO/MainProcess] Received task: celeryProject.multiplyTask.multiply[7952cc0e-9944-497d-842f-1ce03081cf90]
+[2015-03-26 19:08:00,022: WARNING/Worker-1] sending from multiply to print 2 and 4
+[2015-03-26 19:08:00,023: WARNING/Worker-1] Multiple result :  8
+[2015-03-26 19:08:00,031: INFO/MainProcess] Task celeryProject.startTask.start[0be9b6f2-3452-4df2-88a0-05affcd8bca9] succeeded in 0.0286631929994s: None
+[2015-03-26 19:08:00,038: INFO/MainProcess] Received task: celeryProject.addTask.printNum[f1efe692-5533-447e-a300-c64a0188e164]
+[2015-03-26 19:08:00,039: WARNING/Worker-6] Add result : 6
+[2015-03-26 19:08:00,052: INFO/MainProcess] Task celeryProject.addTask.add[a22f4324-b7d8-4188-834c-76a1862dfb35] succeeded in 0.0320650530011s: None
+[2015-03-26 19:08:00,057: INFO/MainProcess] Task celeryProject.multiplyTask.multiply[7952cc0e-9944-497d-842f-1ce03081cf90] succeeded in 0.0347150939997s: None
+[2015-03-26 19:08:00,072: INFO/MainProcess] Task celeryProject.addTask.printNum[f1efe692-5533-447e-a300-c64a0188e164] succeeded in 0.032686513001s: None
+[2015-03-26 19:09:00,003: INFO/MainProcess] Received task: celeryProject.startTask.start[a26c2b5b-8003-4b07-8869-a83318eb1531]
+[2015-03-26 19:09:00,005: INFO/MainProcess] Received task: celeryProject.addTask.add[3c542704-b044-4fe2-885c-3a07fc6c32a6]
+[2015-03-26 19:09:00,006: INFO/MainProcess] Received task: celeryProject.multiplyTask.multiply[0180c0b6-96c2-4f3b-b435-3b32ea20a01d]
+[2015-03-26 19:09:00,007: WARNING/Worker-2] Sending from add to print
+[2015-03-26 19:09:00,007: WARNING/Worker-7] sending from multiply to print 2 and 4
+[2015-03-26 19:09:00,007: WARNING/Worker-7] Multiple result :  8
+[2015-03-26 19:09:00,008: INFO/MainProcess] Received task: celeryProject.addTask.printNum[9ad21712-fd8d-4e49-9297-f165376c634e]
+[2015-03-26 19:09:00,009: WARNING/Worker-4] Add result : 6
+[2015-03-26 19:09:00,026: INFO/MainProcess] Task celeryProject.startTask.start[a26c2b5b-8003-4b07-8869-a83318eb1531] succeeded in 0.0216652390009s: None
+[2015-03-26 19:09:00,030: INFO/MainProcess] Task celeryProject.multiplyTask.multiply[0180c0b6-96c2-4f3b-b435-3b32ea20a01d] succeeded in 0.0233220379996s: None
+[2015-03-26 19:09:00,030: INFO/MainProcess] Task celeryProject.addTask.printNum[9ad21712-fd8d-4e49-9297-f165376c634e] succeeded in 0.0217012409994s: None
+[2015-03-26 19:09:00,030: INFO/MainProcess] Task celeryProject.addTask.add[3c542704-b044-4fe2-885c-3a07fc6c32a6] succeeded in 0.0239682520005s: None
+[2015-03-26 19:10:00,002: INFO/MainProcess] Received task: celeryProject.startTask.start[20e70d8f-37a9-4827-97b8-6face3eb04cc]
+[2015-03-26 19:10:00,004: INFO/MainProcess] Received task: celeryProject.addTask.add[7ef16b91-a807-4d71-85c7-cf57169eb9d6]
+[2015-03-26 19:10:00,005: WARNING/Worker-5] Sending from add to print
+[2015-03-26 19:10:00,005: INFO/MainProcess] Received task: celeryProject.multiplyTask.multiply[4eada1a6-9a8f-40c8-8b38-2c89807658af]
+[2015-03-26 19:10:00,006: WARNING/Worker-1] sending from multiply to print 2 and 4
+[2015-03-26 19:10:00,006: WARNING/Worker-1] Multiple result :  8
+[2015-03-26 19:10:00,006: INFO/MainProcess] Received task: celeryProject.addTask.printNum[4c67e064-fbe1-41d6-b89d-5c8de14e36a1]
+[2015-03-26 19:10:00,007: WARNING/Worker-6] Add result : 6
+[2015-03-26 19:10:00,024: INFO/MainProcess] Task celeryProject.startTask.start[20e70d8f-37a9-4827-97b8-6face3eb04cc] succeeded in 0.0218879890017s: None
+[2015-03-26 19:10:00,029: INFO/MainProcess] Task celeryProject.multiplyTask.multiply[4eada1a6-9a8f-40c8-8b38-2c89807658af] succeeded in 0.0234783679989s: None
+[2015-03-26 19:10:00,029: INFO/MainProcess] Task celeryProject.addTask.printNum[4c67e064-fbe1-41d6-b89d-5c8de14e36a1] succeeded in 0.0223700350034s: None
+[2015-03-26 19:10:00,030: INFO/MainProcess] Task celeryProject.addTask.add[7ef16b91-a807-4d71-85c7-cf57169eb9d6] succeeded in 0.0249662149981s: None
+[2015-03-26 19:36:57,858: WARNING/MainProcess] consumer: Connection to broker lost. Trying to re-establish the connection...
+Traceback (most recent call last):
+  File "/Library/Python/2.7/site-packages/celery/worker/consumer.py", line 278, in start
+    blueprint.start(self)
+  File "/Library/Python/2.7/site-packages/celery/bootsteps.py", line 123, in start
+    step.start(parent)
+  File "/Library/Python/2.7/site-packages/celery/worker/consumer.py", line 821, in start
+    c.loop(*c.loop_args())
+  File "/Library/Python/2.7/site-packages/celery/worker/loops.py", line 70, in asynloop
+    next(loop)
+  File "/Library/Python/2.7/site-packages/kombu/async/hub.py", line 324, in create_loop
+    cb(*cbargs)
+  File "/Library/Python/2.7/site-packages/kombu/transport/base.py", line 162, in on_readable
+    reader(loop)
+  File "/Library/Python/2.7/site-packages/kombu/transport/base.py", line 144, in _read
+    drain_events(timeout=0)
+  File "/Library/Python/2.7/site-packages/amqp/connection.py", line 302, in drain_events
+    chanmap, None, timeout=timeout,
+  File "/Library/Python/2.7/site-packages/amqp/connection.py", line 365, in _wait_multiple
+    channel, method_sig, args, content = read_timeout(timeout)
+  File "/Library/Python/2.7/site-packages/amqp/connection.py", line 336, in read_timeout
+    return self.method_reader.read_method()
+  File "/Library/Python/2.7/site-packages/amqp/method_framing.py", line 189, in read_method
+    raise m
+IOError: Socket closed
+[2015-03-26 19:36:57,903: ERROR/MainProcess] consumer: Cannot connect to amqp://guest:**@127.0.0.1:5672//: [Errno 61] Connection refused.
+Trying again in 2.00 seconds...
+
+[2015-03-26 19:36:59,917: ERROR/MainProcess] consumer: Cannot connect to amqp://guest:**@127.0.0.1:5672//: [Errno 61] Connection refused.
+Trying again in 4.00 seconds...
+
+[2015-03-26 19:37:03,932: ERROR/MainProcess] consumer: Cannot connect to amqp://guest:**@127.0.0.1:5672//: [Errno 61] Connection refused.
+Trying again in 6.00 seconds...
+
+[2015-03-26 19:37:09,949: ERROR/MainProcess] consumer: Cannot connect to amqp://guest:**@127.0.0.1:5672//: [Errno 61] Connection refused.
+Trying again in 8.00 seconds...
+
+[2015-03-26 19:37:17,966: ERROR/MainProcess] consumer: Cannot connect to amqp://guest:**@127.0.0.1:5672//: [Errno 61] Connection refused.
+Trying again in 10.00 seconds...
+
+[2015-03-26 19:37:27,989: ERROR/MainProcess] consumer: Cannot connect to amqp://guest:**@127.0.0.1:5672//: [Errno 61] Connection refused.
+Trying again in 12.00 seconds...
+
+[2015-03-26 19:37:40,011: ERROR/MainProcess] consumer: Cannot connect to amqp://guest:**@127.0.0.1:5672//: [Errno 61] Connection refused.
+Trying again in 14.00 seconds...
+
+[2015-03-26 19:37:54,038: ERROR/MainProcess] consumer: Cannot connect to amqp://guest:**@127.0.0.1:5672//: [Errno 61] Connection refused.
+Trying again in 16.00 seconds...
+
+[2015-03-26 19:38:10,067: ERROR/MainProcess] consumer: Cannot connect to amqp://guest:**@127.0.0.1:5672//: [Errno 61] Connection refused.
+Trying again in 18.00 seconds...
+
+[2015-03-27 09:22:47,475: INFO/MainProcess] Connected to amqp://guest:**@127.0.0.1:5672//
+[2015-03-27 09:22:47,489: INFO/MainProcess] mingle: searching for neighbors
+[2015-03-27 09:22:48,498: INFO/MainProcess] mingle: all alone
+[2015-03-27 09:22:48,527: WARNING/MainProcess] worker1@EN-ParokshaS ready.
+[2015-03-27 09:22:48,786: WARNING/MainProcess] ERROR: Pidfile (/Users/paroksh.saxena/personal/python/playingWithPython/celeryProject/mypid.pid) already exists.
+Seems we're already running? (pid: 15291)
